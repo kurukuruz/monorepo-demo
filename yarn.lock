@@ -5109,17 +5109,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-app@workspace:apps/to-admin":
-  version: 0.0.0-use.local
-  resolution: "nuxt-app@workspace:apps/to-admin"
-  dependencies:
-    "@nuxt/devtools": latest
-    nuxt: ^3.8.0
-    vue: ^3.3.7
-    vue-router: ^4.2.5
-  languageName: unknown
-  linkType: soft
-
 "nuxt@npm:^3.8.0":
   version: 3.8.0
   resolution: "nuxt@npm:3.8.0"
@@ -6708,6 +6697,28 @@ __metadata:
   checksum: 71fbbeabbfb36ccd840559f67f21e356e1d03da2915b32d2ae1a60ddcc13a124be2739f696d2feb884983441d159a18649e8d956648d591bdad35c430a6b6d28
   languageName: node
   linkType: hard
+
+"to-admin@workspace:apps/to-admin":
+  version: 0.0.0-use.local
+  resolution: "to-admin@workspace:apps/to-admin"
+  dependencies:
+    "@nuxt/devtools": latest
+    nuxt: ^3.8.0
+    vue: ^3.3.7
+    vue-router: ^4.2.5
+  languageName: unknown
+  linkType: soft
+
+"to-customer@workspace:apps/to-customer":
+  version: 0.0.0-use.local
+  resolution: "to-customer@workspace:apps/to-customer"
+  dependencies:
+    "@nuxt/devtools": latest
+    nuxt: ^3.8.0
+    vue: ^3.3.7
+    vue-router: ^4.2.5
+  languageName: unknown
+  linkType: soft
 
 "to-fast-properties@npm:^2.0.0":
   version: 2.0.0
