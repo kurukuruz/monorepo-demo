@@ -810,6 +810,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@kurukuruz/shared-components@workspace:^, @kurukuruz/shared-components@workspace:packages/shared-components":
+  version: 0.0.0-use.local
+  resolution: "@kurukuruz/shared-components@workspace:packages/shared-components"
+  dependencies:
+    vue: ^3.3.7
+  languageName: unknown
+  linkType: soft
+
 "@kwsites/file-exists@npm:^1.1.1":
   version: 1.1.1
   resolution: "@kwsites/file-exists@npm:1.1.1"
@@ -6702,6 +6710,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "to-admin@workspace:apps/to-admin"
   dependencies:
+    "@kurukuruz/shared-components": "workspace:^"
     "@nuxt/devtools": latest
     nuxt: ^3.8.0
     vue: ^3.3.7

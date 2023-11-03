@@ -1,0 +1,7 @@
+{
+  "name": "@kurukuruz/shared-components",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "vue": "^3.3.7"
+  }
+}
