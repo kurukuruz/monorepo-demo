@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <h1>管理者向けページ</h1>
   </div>
 </template>
